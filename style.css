@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Rubik+Moonrocks&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75),rgba(0,0,0,0.75)), 
+    url(bg-maldives-desktop.jpg) 
+    no-repeat center/cover;    
+}
+ 
+.container {
+    width: 100%;
+    margin: auto;
+}
+.navbar {
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4rem;
+    margin-top: 0.5rem;
+}
+span.style {
+    color: #00c3ff;
+}
+nav {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+  
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 8px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+nav ul li a:hover {
+    color: #00c3ff;
+}
+.btn1 {
+    background: #25ccff;
+    background-size: 200% auto;
+    text-align: center;
+    color: #222;
+    padding: 2rem;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 20px;
+    box-shadow: 3px 8px 22px rgba(22,21,21.15);
+    transition: background-position .5s;
+}
+
+.btn1:hover {
+    transform: scale(1);
+    color: #fff;
+    background: none;
+    transition: all .5s;
+}
+
+.content {
+    margin-top: 15rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 2rem;
+}
+h1 {
+    font-size: 12rem;
+    font-weight: 700;
+    line-height: .9em;
+}
+span.txt {
+    color: #00c3ff;
+    font-size: 10rem;
+}
+.btn2 {
+    background: linear-gradient(to right, transparent 50%, #00c3ff 50%);
+    background-size: 200% auto;
+    background-position: left;
+    margin-top: 50px;
+    text-align: center;
+    padding: 15px 45px;
+    color: #fff;
+    outline: none;
+    border: 2px solid #00c3ff;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 3px 8px 22px rgba(22,21,21.15);
+    transition: background-position .5s;
+}
+.btn2:hover {
+    background-position: right;
+    color: #1b1b1b;
+}
+.social-media {    
+    margin: 2rem auto;
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+.fa {
+    color: #222;
+    background-color: #00c3ff;
+    border-radius: 100px;
+    padding: 15px;
+    margin: 10px;
+}
+.fa:hover {
+    transform: scale(1.2);
+    color: #fff;
+    background: none;
+    transition: all .5s;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(bg-maldives-mobile.jpg) 
+        no-repeat center/cover;    
+    }
+
+    .container {
+        width: 100%;
+        min-width: 7rem;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+ 
+
+    }
+
+    ul li a {
+        display: none;
+    }
+
+    .btn1 {
+        background: #00c3ff;
+        background-size: 100% auto;
+        color: #222;
+        padding: 1.5rem;
+        border: none;
+        outline: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        cursor: pointer;
+        border-radius: 3rem;
+        font-size: 2.4rem;
+        box-shadow: 3px 8px 22px rgba(22,21,21.15);
+    }
+
+    h1 {
+       display: flex;
+       flex-direction: column;
+       justify-content: right;
+       text-align: center;
+       font-size: 3.5rem;
+       font-weight: 700;
+       line-height: .9em;
+    }
+    span.txt {
+        color: #00c3ff;
+        font-size: 3.3rem;
+    }
+
+    .btn2 {
+        background: linear-gradient(to right, transparent 50%, #00c3ff 50%);
+        background-size: 200% auto;
+        background-position: left;
+        margin: 3rem auto;
+        text-align: center;
+        padding: 15px 45px;
+        color: #fff;
+        outline: none;
+        border: 2px solid #00c3ff;
+        border-radius: 30px;
+        font-weight: 700;
+        font-size: 2rem;
+        cursor: pointer;
+        text-transform: uppercase;
+        box-shadow: 3px 8px 22px rgba(22,21,21.15);
+        transition: background-position .5s;
+    }
+
+}
