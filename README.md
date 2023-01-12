@@ -1,7 +1,7 @@
 
 # Traveller Agência de Turismo ✈️
 
-Dando continuidade aos estudos de desenvolvimento WEB, neste projeto, estudei sobre mais sobre media queries e as metas tags.
+Dando continuidade aos estudos de desenvolvimento WEB, neste projeto, estudei sobre media queries e metas tags.
 
 Meta tags. São tags HTML que fornecem informações sobre uma página para os mecanismos de busca. Elas geralmente ficam no cabeçalho de uma página e incluem informações como o título da página, uma descrição resumida do conteúdo e palavras-chave relacionadas à página
 
